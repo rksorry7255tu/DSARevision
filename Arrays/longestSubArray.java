@@ -19,6 +19,7 @@ public class longestSubArray {
       if (!map.containsKey(sum)) {
         map.put(sum, i);
       }
+      
     }
     System.out.println(max);
 
